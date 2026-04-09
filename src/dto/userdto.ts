@@ -22,5 +22,5 @@ export interface UserResponseDTO {
 }
 export interface UserListResponseDTO {
     users: UserResponseDTO[];
-    total: number;
+    totals: number;
 }
