@@ -20,3 +20,13 @@ export interface UserResponseDTO {
     name: string;
     age: number;
 }
+export interface UserListResponseDTO {
+    users: UserResponseDTO[];
+    totals: number;
+}
+export interface UserResponseDTO {
+    id: string;
+    email: string;
+    name: string;
+    age: number;
+}
