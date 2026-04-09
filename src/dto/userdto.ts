@@ -14,7 +14,3 @@ export interface UpdateUserDTO {
     name?: string;
     age?: number;
 }
-export interface usercredentialDTO {
-    email: string;
-    password: string;
-}
