@@ -24,3 +24,9 @@ export interface UserListResponseDTO {
     users: UserResponseDTO[];
     totals: number;
 }
+export interface UserFilterDTO {
+    name?: string;
+    email?: string;
+    minAge?: number;
+    maxAge?: number;
+}   
