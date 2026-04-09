@@ -30,3 +30,9 @@ export interface UserFilterDTO {
     minAge?: number;
     maxAge?: number;
 }   
+export interface UserResponseDTO {
+    id: string;
+    email: string;
+    name: string;
+    age: number;
+}
