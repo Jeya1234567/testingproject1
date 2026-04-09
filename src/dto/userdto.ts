@@ -20,3 +20,7 @@ export interface UserResponseDTO {
     name: string;
     age: number;
 }
+export interface UserListResponseDTO {
+    users: UserResponseDTO[];
+    total: number;
+}
