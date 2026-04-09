@@ -22,5 +22,17 @@ export interface UserResponseDTO {
 }
 export interface UserListResponseDTO {
     users: UserResponseDTO[];
-    total: number;
+    totals: number;
+}
+export interface UserFilterDTO {
+    name?: string;
+    email?: string;
+    minAge?: number;
+    maxAge?: number;
+}   
+export interface UserResponseDTO {
+    id: string;
+    email: string;
+    name: string;
+    age: number;
 }
