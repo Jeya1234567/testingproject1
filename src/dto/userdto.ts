@@ -14,3 +14,9 @@ export interface UpdateUserDTO {
     name?: string;
     age?: number;
 }
+export interface UserResponseDTO {
+    id: string;
+    email: string;
+    name: string;
+    age: number;
+}
